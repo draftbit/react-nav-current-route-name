@@ -24,8 +24,8 @@ Two ways:
 
 ```es6
 // if this is the only HOC you have:
-import { getCurrentRoute } from 'react-nav-current-route-name'
-export default getCurrentRoute(MyComponent)
+import { withCurrentRouteName } from 'react-nav-current-route-name'
+export default withCurrentRouteName(MyComponent)
 
 // sometimes you'll have a few things using compose:
 
