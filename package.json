@@ -1,0 +1,15 @@
+{
+  "name": "react-nav-current-route-name",
+  "version": "1.0.0",
+  "description": "Get the current route name using React Navigation, Redux & Reselect",
+  "main": "src/index.js",
+  "repository": "git@github.com:Preposterous/react-nav-current-route-name.git",
+  "author": "Peter Piekarczyk <peter@orchard.ai>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-redux": "^5.0.6"
+  },
+  "dependencies": {
+    "reselect": "^3.0.1"
+  }
+}
