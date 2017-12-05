@@ -1,6 +1,6 @@
 # 🛣 🚴‍♀️ 🚧  Current Route Name
 
-for react-navigation
+A memoized selector for redux + react-navigation that will expose the current route name for you!
 
 ## Installation
 
