@@ -17,7 +17,7 @@ export const getCurrentRouteName = createSelector(
   }
 )
 
-export const getCurrentRoute = connect(state => {
+export const withCurrentRouteName = connect(state => {
   const { nav } = state
   return {
     currentRoute: getCurrentRouteName({

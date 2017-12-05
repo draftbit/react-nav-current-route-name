@@ -30,7 +30,7 @@ export default getCurrentRoute(MyComponent)
 // sometimes you'll have a few things using compose:
 
 export default compose(
-  getCurrentRouteName,
+  withCurrentRouteName,
   withApollo,
   withNavigation,
   connectActionSheet
