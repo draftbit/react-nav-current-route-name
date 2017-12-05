@@ -20,7 +20,7 @@ export const getCurrentRouteName = createSelector(
 export const getCurrentRoute = connect(state => {
   const { nav } = state
   return {
-    currentRoute: currentRoute({
+    currentRoute: getCurrentRouteName({
       index: nav.index,
       routes: nav.routes
     })
