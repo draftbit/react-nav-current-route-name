@@ -22,7 +22,7 @@ Two ways:
 2. wrap it around your component
 3. You'll have `currentRoute` available to you with the name of the current route
 
-```es61
+```es6
 // if this is the only HOC you have:
 import { getCurrentRoute } from 'react-nav-current-route-name'
 export default getCurrentRoute(MyComponent)
